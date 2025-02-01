@@ -47,7 +47,7 @@
                         </li>
 
                         <li class="navbar-item">
-                            <a href="/" target="_blank" class="navbar-link" data-nav-toggler>Login</a>
+                            <a href="login.php" class="navbar-link" data-nav-toggler>Login</a>
                         </li>
                     </ul>
                 </nav>
