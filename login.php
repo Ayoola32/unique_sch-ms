@@ -1,17 +1,21 @@
+<?php include "assets/script.php"; ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
   <title>Unique Schools - Login</title>
-  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="shortcut icon" href="includes/assets/favicon.svg" type="image/svg+xml" />
 
   <!-- Fontawesome CDN Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="assets/css/login_style.css">
+  <link rel="stylesheet" href="includes/assets/css/login_style.css">
 </head>
 
 <body>
@@ -19,7 +23,7 @@
     <input type="checkbox" id="flip">
     <div class="cover">
       <div class="front">
-        <img src="assets/images/loginbg.jpeg" alt="">
+        <img src="includes/assets/images/loginbg.jpeg" alt="">
       </div>
 
     </div>
@@ -153,7 +157,7 @@
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/login_script.js"></script>
+  <script src="includes/assets/js/login_script.js"></script>
 
 
 </body>
