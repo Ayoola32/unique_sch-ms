@@ -10,15 +10,15 @@
     <title>Unique Schools -  Website</title>
 
 
-    <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="./includes/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./includes/assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 
-    <link rel="preload" as="image" href="assets/images/hero-banner.png" />
-    <link rel="preload" as="image" href="assets/images/hero-abs-1.png" media="min-width(768px)"/>
-    <link rel="preload" as="image" href="assets/images/hero-abs-2.png" media="min-width(768px)"/>
+    <link rel="preload" as="image" href="./includes/assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./includes/assets/images/hero-abs-1.png" media="min-width(768px)"/>
+    <link rel="preload" as="image" href="./includes/assets/images/hero-abs-2.png" media="min-width(768px)"/>
   </head>
 
   <body id="top">

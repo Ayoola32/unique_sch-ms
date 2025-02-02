@@ -9,7 +9,7 @@
                 <div class="course-card">
                     <figure class="card-banner">
                         <img
-                            src="./assets/images/1.png"
+                            src="./includes/assets/images/1.png"
                             width="370"
                             height="270"
                             loading="lazy"

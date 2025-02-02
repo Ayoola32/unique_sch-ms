@@ -4,7 +4,7 @@
             <div class="container">
                 <figure class="cta-banner">
                     <img
-                    src="./assets/images/9.webp"
+                    src="./includes/assets/images/9.webp"
                     width="580"
                     height="380"
                     loading="lazy"

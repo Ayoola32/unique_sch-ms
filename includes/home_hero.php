@@ -23,7 +23,7 @@
 
                 <figure class="hero-banner">
                     <img
-                        src="./assets/images/hero-banner.png"
+                        src="./includes/assets/images/hero-banner.png"
                         width="500"
                         height="500"
                         loading="lazy"
@@ -32,7 +32,7 @@
                     />
 
                     <img
-                        src="./assets/images/hero-abs-1.png"
+                        src="./includes/assets/images/hero-abs-1.png"
                         width="318"
                         height="352"
                         loading="lazy"
@@ -41,7 +41,7 @@
                     />
 
                     <img
-                        src="./assets/images/hero-abs-2.png"
+                        src="./includes/assets/images/hero-abs-2.png"
                         width="210"
                         height="160"
                         loading="lazy"

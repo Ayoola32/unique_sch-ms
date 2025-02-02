@@ -7,7 +7,7 @@
     <div class="container">
         <figure class="about-banner">
         <img
-            src="./assets/images/illustration.webp"
+            src="./includes/assets/images/illustration.webp"
             width="450"
             height="590"
             loading="lazy"
@@ -16,7 +16,7 @@
         />
 
         <img
-            src="./assets/images/illustration-2.avif"
+            src="./includes/assets/images/illustration-2.avif"
             width="188"
             height="242"
             loading="lazy"
@@ -25,7 +25,7 @@
         />
 
         <img
-            src="./assets/images/illus.avif"
+            src="./includes/assets/images/illus.avif"
             width="150"
             height="200"
             loading="lazy"
@@ -42,7 +42,7 @@
                 <li class="about-item">
                     <div class="item-icon item-icon-1">
                         <img
-                        src="./assets/images/about-icon-1.png"
+                        src="./includes/assets/images/about-icon-1.png"
                         width="30"
                         height="30"
                         loading="lazy"
@@ -62,7 +62,7 @@
                 <li class="about-item">
                     <div class="item-icon item-icon-2">
                         <img
-                        src="./assets/images/about-icon-2.png"
+                        src="./includes/assets/images/about-icon-2.png"
                         width="30"
                         height="30"
                         loading="lazy"
@@ -83,7 +83,7 @@
                 <li class="about-item">
                     <div class="item-icon item-icon-3">
                         <img
-                        src="./assets/images/about-icon-3.png"
+                        src="./includes/assets/images/about-icon-3.png"
                         width="30"
                         height="30"
                         loading="lazy"
