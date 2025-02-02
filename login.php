@@ -1,5 +1,46 @@
 <?php include "assets/script.php"; ?>
 
+<?php
+error_reporting(0);
+session_start();
+
+if (isset($_SESSION['uid'])) {
+  $uid = $_SESSION['uid'];
+
+  $query = "SELECT `role` FROM `users` WHERE `users`.`id`=?";
+  $query_result = mysqli_prepare($connection, $query);
+
+  mysqli_stmt_bind_param($query_result, "s", $uid);
+  mysqli_stmt_execute($query_result);
+
+  $result = mysqli_stmt_get_result($query_result);
+  $row = mysqli_fetch_array($result);
+
+  mysqli_stmt_close($query_result);
+
+  if ($row && isset($row['role'])) {
+    if ($row['role'] == "admin") {
+      header('Location: admin_panel/dashboard.php');
+      exit();
+    } else if ($row['role'] == "owner") {
+      header('Location: founder_panel/dashboard.php');
+      exit();
+    } else if ($row['role'] == "teacher") {
+      header('Location: teacher_panel/dashboard.php');
+      exit();
+    } else if ($row['role'] == "student") {
+      header('Location: student_panel/index.php');
+      exit();
+    }
+  }
+}
+
+
+
+
+
+
+?>
 
 
 <!DOCTYPE html>
@@ -157,7 +198,7 @@
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="includes/assets/js/login_script.js"></script>
+  <script src="login/login_script.js"></script>
 
 
 </body>
